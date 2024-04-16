@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Library</h1>
+    </div>
+    <div class="containner">
+      <button id="new">New book</button>
+      <div class="start">
+        <form id="moral">
+          <input type="text" placeholder="Title" id="title" required /><br />
+
+          <input
+            type="text"
+            name="author"
+            placeholder="author"
+            id="author"
+            required
+          /><br />
+
+          <input
+            type="number"
+            placeholder="No.Of pages"
+            id="pages"
+            required
+          /><br />
+          <p>have you read it? <input type="checkbox"  id="read"/></p>
+
+          <button id="process">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="height" id="booknext"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
